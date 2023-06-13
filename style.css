@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+div{
+    position: absolute;
+    background-color: whitesmoke;
+    padding: 10px 20px;
+    bottom: 20px;
+    font-size: 18px;
+}
+input{
+    width: 50px;
+    padding: 5px;
+    font-size: 20px;
+    background-color: darksalmon;
+    text-align: center;
+}
+input:focus{
+    outline: none;
+}
+.text{
+    color: blue;
+}
